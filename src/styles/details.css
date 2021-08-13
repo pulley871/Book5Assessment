@@ -1,0 +1,34 @@
+.sentLetter{
+    background-color: rgb(46, 226, 220);
+    max-width: 43.75rem;
+    height: 175px;
+}
+.sentLetter ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.sentLetter ul li{
+    padding-left: 20%;
+}
+.topicContainer{
+    display: flex;
+    flex-direction: column;
+    width: 4.6rem;
+    height: 2rem;
+    border: .5px solid black;
+    background-color: cornsilk;
+    border-radius: 42%;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.submitButton{
+    margin-top: 1rem;
+}
+.letterContents{
+    border: 2px solid rgb(77, 77, 222);
+}
+.deleteButton{
+    margin-top: 1rem;
+}

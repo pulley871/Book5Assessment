@@ -1,0 +1,23 @@
+@import "./details.css";
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+body {
+    font-family: 'Inconsolata', monospace;
+    
+}
+.letterConatiner{
+    margin-top: 1rem;
+}
+#topicList {
+    list-style: none;
+    display: flex;
+    padding-left: 1px;
+
+}
+#topicList label{
+    margin-right: .4rem;
+}
+.allTopics{
+    display: flex;
+    justify-content: space-around;
+}
